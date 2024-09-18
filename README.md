@@ -28,7 +28,7 @@ echo '{"venvPath": ".","venv": ".venv"}' > pyrightconfig.json
 
 
 ### Terminal:
-- Show/hide **Ctrl-\***
+- Show/hide **Ctrl-\\**
 - Show float **leader-tf**
 - Show vertical **leader-tv**
 - Show horizontal **leader-th**
