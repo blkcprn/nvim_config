@@ -16,19 +16,19 @@ echo '{"venvPath": ".","venv": ".venv"}' > pyrightconfig.json
 ### leader - space
 
 
-Find:
-    - find file **leader-ff**
-    - find grep **leader-fg**
+### Find:
+- find file **leader-ff**
+- find grep **leader-fg**
 
 
-Neo-tree:
-    - Show left **leader-nl**
-    - Show right **leader-nr**
-    - Show float **leader-nf**
+### Neo-tree:
+- Show left **leader-nl**
+- Show right **leader-nr**
+- Show float **leader-nf**
 
 
-Terminal:
-    - Show/hide **Ctrl-\**
-    - Show float **leader-tf**
-    - Show vertical **leader-tv**
-    - Show horizontal **leader-th**
+### Terminal:
+- Show/hide **Ctrl-\**
+- Show float **leader-tf**
+- Show vertical **leader-tv**
+- Show horizontal **leader-th**
