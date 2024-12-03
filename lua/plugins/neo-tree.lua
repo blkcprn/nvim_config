@@ -10,6 +10,16 @@ return {
         -- See `# Preview Mode` for more information
     },
     config = function()
+        require("neo-tree").setup({
+            filesystem = {
+                filtered_items = {
+                    visible = true,
+                    show_hidden_count = true,
+                    hide_dotfiles = false,
+                    hide_gitignored = false,
+                }
+            }
+        })
         vim.keymap.set('n', '<leader>nl', ':Neotree filesystem reveal left<CR>')
         vim.keymap.set('n', '<leader>nr', ':Neotree filesystem reveal right<CR>')
         vim.keymap.set('n', '<leader>nf', ':Neotree filesystem reveal float<CR>')
