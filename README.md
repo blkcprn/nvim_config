@@ -33,6 +33,9 @@ echo '{"venvPath": ".","venv": ".venv"}' > pyrightconfig.json
 - Show vertical **leader-tv**
 - Show horizontal **leader-th**
 
+### Tabs
+- Next tab **Tab**
+- Prev tav **s-Tab**
 
 ### Comment
 - line_mapping = **leader-cl**
