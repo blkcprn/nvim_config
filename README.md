@@ -3,7 +3,7 @@
 Commands:
 ```
 sudo dnf install gcc gcc-c++ nodejs neovim python3-neovim
-sudo npm i pyright
+sudo npm i pyright -g
 echo '{"venvPath": ".","venv": ".venv"}' > pyrightconfig.json
 ```
 
