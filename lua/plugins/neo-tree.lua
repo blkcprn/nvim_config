@@ -20,8 +20,8 @@ return {
                 }
             }
         })
-        vim.keymap.set('n', '<leader>nl', ':Neotree filesystem reveal left<CR>')
-        vim.keymap.set('n', '<leader>nr', ':Neotree filesystem reveal right<CR>')
-        vim.keymap.set('n', '<leader>nf', ':Neotree filesystem reveal float<CR>')
+        vim.keymap.set("n", "<leader>nl", ":Neotree filesystem reveal left<CR>")
+        vim.keymap.set("n", "<leader>nr", ":Neotree filesystem reveal right<CR>")
+        vim.keymap.set("n", "<leader>nf", ":Neotree filesystem reveal float<CR>")
     end
 }
